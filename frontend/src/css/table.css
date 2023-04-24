@@ -1,0 +1,58 @@
+body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: "PingFang", sans-serif;
+	font-weight: 100;
+}
+.table-container {
+	margin: auto;
+	max-width: fit-content;
+	overflow-y: scroll;
+}
+
+.table {
+	max-width: fit-content;
+	border-collapse: collapse;
+	overflow: hidden;
+	margin: auto;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 1rem;
+}
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: rgb(82, 81, 81);
+}
+th {
+	text-align: left;
+}
+thead th {
+	background-color: rgb(138, 158, 159);
+	color: white;
+	text-align: center;
+}
+tbody tr:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: rgb(82, 81, 81);
+}
+tbody td {
+	position: relative;
+	text-align: center;
+}
+/* tbody td:hover:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -9999px;
+	bottom: -9999px;
+	background-color: rgba(255, 255, 255, 0.2);
+	z-index: -1;
+} */
+
+a {
+	text-decoration: none;
+}
